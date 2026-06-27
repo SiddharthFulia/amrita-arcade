@@ -1,6 +1,6 @@
 # amrita arcade
 
-A mini-games collection built with [Flame](https://flame-engine.org/) for Sid + Amrita. Sibling project to [`amrita-app`](https://github.com/SiddharthFulia/amrita-arcade-app) — runs standalone or gets bundled in via webview/intent.
+A mini-games collection built with [Flame](https://flame-engine.org/) for Sid + Amrita. Sibling project to [`amrita-app`](https://github.com/SiddharthFulia/amrita-app) — runs standalone or gets bundled in via webview/intent.
 
 ## Structure (one folder per game)
 
