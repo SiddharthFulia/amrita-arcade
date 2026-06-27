@@ -13,6 +13,7 @@ import '../games/tic_tac_toe/tic_tac_toe_screen.dart';
 import '../games/memory_match/memory_match_screen.dart';
 import '../games/sudoku/sudoku_screen.dart';
 import '../games/chess/chess_screen.dart';
+import '../games/dress_up/dress_up_screen.dart';
 
 /// Arcade hub. One tile per game, grouped by genre. Each game lives
 /// in `lib/games/<name>/` — see README.md for the convention.
@@ -38,6 +39,9 @@ class GamesHubPage extends StatelessWidget {
       ]),
       _Section('👫  2-player', [
         _G('⭕', 'tic-tac-toe',  (_) => const TicTacToeScreen()),
+      ]),
+      _Section('👗  for her', [
+        _G('💃', 'style my date', (_) => const DressUpScreen()),
       ]),
     ];
 

@@ -23,7 +23,7 @@ class BackdropPicker extends StatelessWidget {
         scrollDirection: Axis.horizontal,
         padding: const EdgeInsets.symmetric(horizontal: 12),
         itemCount: BackdropCatalog.all.length,
-        separatorBuilder: (_, __) => const SizedBox(width: 10),
+        separatorBuilder: (_, _) => const SizedBox(width: 10),
         itemBuilder: (_, i) {
           final b = BackdropCatalog.all[i];
           final isOn = b.id == selectedId;
